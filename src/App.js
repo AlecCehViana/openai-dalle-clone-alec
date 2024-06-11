@@ -50,7 +50,7 @@ const App = () => {
         <div className="input-container">
           <input
             value={value}
-            placeholder="An impressionist oil painting of a sunflower in a purple vase..."
+            placeholder="An impressionist oil painting of a flower in a purple vase..."
             onChange={(e) => setValue(e.target.value)}
           />
           <button onClick={getImages}> Create </button>
